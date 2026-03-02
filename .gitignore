@@ -1,0 +1,45 @@
+## Ignore build outputs
+[Bb]in/
+[Oo]bj/
+out/
+
+## Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+
+## NuGet
+*.nupkg
+.nuget/
+
+## ASP.NET / .NET Core
+artifacts/
+project.lock.json
+project.fragment.lock.json
+backup*/
+
+## Sensitive or user-specific files
+secrets.json
+appsettings.Development.json
+
+## Certificates
+*.pfx
+
+## Databases
+*.db
+*.sqlite
+
+## OS generated files
+.DS_Store
+Thumbs.db
+
+## Docker
+docker-compose.*.yml
